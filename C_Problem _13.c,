@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    int a, tens, ones, reverse;
+    printf("Enter a two digit number: ");
+    scanf("%d", &a);
+    ones=a%10;
+    tens=a/10;
+    reverse=ones*10+tens;
+    printf("%d", reverse);
+    return 0;
+}
